@@ -1,0 +1,81 @@
+/* 20083743D PEI Yuxing */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4c4c4c;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px 0px;
+    background-color: #E5E5E5;
+}
+
+nav ul li {
+    display: inline;
+    padding: 12px 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+nav li:hover {
+    background-color: #9CC4C1;
+}
+
+li.currentPage {
+    background-color: #EDEDED;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.featured-drinks {
+    display: flex;
+    justify-content: center;
+}
+
+.drink-container {
+    display: flex;
+}
+
+.drink {
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.drink img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #4b4b4b;
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
